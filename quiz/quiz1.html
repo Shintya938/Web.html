@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form pemesanan ringkas - Poliban Digicraft</title>
+</head>
+
+<body>
+    
+<!-- Bagian kepala halaman (Header & Navigasi) -->
+    <header>
+        <h1>Poliban Digicraft Studio</h1>
+        <p>Solusi Transportasi Bisnis Digital Anda di Banjarmasin </p>
+        <nav>
+            <a href="Kontak.html"><b>Kembali ke beranda</b></a>
+        </nav>
+        <hr>
+
+    </header>
+
+    <main>
+
+<div style="display: flex; align-items: center;gap:30px;">
+    <img src="c:\Users\ACER\OneDrive\Pictures\344a6c51-ee96-4531-b336-6b1068c7a3b0.jpg" 
+    width="200" height="200" alt="pas foto"
+
+    <div>
+        <h1>SEMBAKO</h1>
+        <p>Sembako adalah kebutuhan pokok sehari-hari yang digunakan untuk
+           memenuhi kebutuhan rumah tangga,seperti beras, minyak goreng, gula, telur, tepung, 
+           dan kebutuhan lainnya. <br>
+        </p>
+    </div>
+
+
+    <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr bgcolor="#FFB6C1">
+                    <th>Package Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <! -- kategori web menggabungkan 2 baris vertikal menggunakan rowspan -- >
+                    <td>Paket Basic</td>
+                    <td>Rp 50.000 </td>
+                    
+                </tr>
+                <tr>
+
+                
+                </tr>
+                <tr>
+                    <td>Paket Standar</b></td>
+                    <td>Rp 100.000</td>
+                    
+                </tr>
+                <tr>
+
+                    <td>Paket Premium</td>
+                    <td>Rp 150.000</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+        <br></br>
+
+
+        <fieldset>
+            <b>Formulir Pemesanan</b>
+            <br><br>
+            <label for="nama_lengkap">Nama Lengkap:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="nama_lengkap" id="nama_lengkap" 
+            placeholder="contoh: Shintya" size="37" required>
+            <br><br>
+
+            <label for="email_pemesanan">Alamat email aktif:
+            </label>
+            &nbsp;
+            
+            <input type="email" name="email_pemesanan" id="email_pemesanan" 
+            placeholder="shintya@gmail.com" size="37" required>
+        <br><br>
+        
+        <label for="pilih_paket">Paket </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="pilih_paket" id="pilih_paket" id="pilih_paket">
+            <option value="">Pilih Paket</option>
+            <option value="silver">paket silver branding (Rp.1.500.000)</option>
+            <option value="gold">paket gold web development (Rp.3.000.000)</option>
+            <option value="platinum">paket platinum full digital transformation (Rp.5.000.000)</option>
+            <option value="costum">konsultasi custom project</option>
+        </select>
+        <br><br>
+        <button type="submit">kirim pesanan</button>
+        </fieldset>
+    </form>
+</div>
+
+</body>
+</html>
